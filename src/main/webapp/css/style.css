@@ -1,0 +1,118 @@
+body{
+    background-color: #CAC4CE;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    overflow-x: hidden;
+}
+#log {
+    display: block;
+    width: 85%;
+    height: 93.5vh;
+    resize: none;
+    margin-left: 15%;
+    border: 0;
+    color: black;
+    background-color: #8D86C9;
+    padding: 1px 5px;
+}
+
+#input {
+    display: block;
+    width: 85%;
+    height: 28px;
+    margin-left: 15%;
+    color: black;
+    background-color: #F7ECE1;
+    font-size: 16px;
+    padding: 1px 5px;
+    border-style: solid;
+    border-color: #786dcf;
+    border-width: 7px;
+}
+
+#inputButton{
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    padding: 4px;
+    border-style: solid;
+    border-color: #786dcf;
+    border-width: 5px;
+    height: 100%;
+}
+
+
+
+.send{
+    position: relative;
+}
+
+
+.sidebar{
+    width: 15%;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    background-color: #CAC4CE;
+}
+
+
+.sideBarOptions{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+}
+
+
+.sideBarOptions a{
+    text-decoration: none;
+    color: black;
+}
+
+
+section{
+    background-color: #725AC1;
+    margin-left: 15%;
+    padding-top: 25px;
+}
+
+.newRoom{
+    margin-left: 15%;
+}
+
+.button{
+    cursor: pointer ;
+}
+
+.button:hover{
+    background-color: darkgrey;
+}
+
+.roomButtons{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-height: 300px;
+    overflow-y: auto;
+
+}
+.sideBarOptions button{
+    height: 26px;
+    width: 100px;
+}
+
+.roomButtons button:hover{
+    background-color: darkgrey;
+}
+
+#about{
+    margin-left: 10px;
+}
+
+#about h2,ul{
+    margin: 0;
+    
+}
